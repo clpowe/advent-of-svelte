@@ -1,8 +1,9 @@
 // uno.config.ts
 import { defineConfig, presetTypography, presetUno } from 'unocss';
+import { presetForms } from '@julr/unocss-preset-forms'
 
 export default defineConfig({
-	presets: [presetUno(), presetTypography()],
+	presets: [presetUno(), presetTypography(),presetForms(),],
 	theme: {
 		colors: {
 			g400: '#7CBC66',
