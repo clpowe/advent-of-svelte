@@ -86,7 +86,7 @@ function log(){
 	</form>
 
 	<form  class="mx-auto" on:submit={log} >
-		<label for="search">
+		<label for="search" placeholder="search">
 	Search
 		<input bind:value={search} type="text" class="rounded-full ">
 		</label>
